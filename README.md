@@ -30,6 +30,7 @@ c.close()
 break
 ```
 
+
 SERVER:
 ```
 import socket
@@ -40,10 +41,10 @@ print(s.recv(1024).decode())
 s.send("Acknowledgement Recived".encode())
 ```
 ## OUTPUT
-client:
-![alt text](2a-1.png)
-server:
-![alt text](<server a-1.png>)
+CLIENT
+ ![alt text](<2 AA.png>)
+SERVER
+![alt text](<2A AA.png>)
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
